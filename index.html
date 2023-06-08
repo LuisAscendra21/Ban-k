@@ -20,103 +20,103 @@
             </form>
         </section>
 
-        
-    <section id="atm-container">
-    <!--Navegacion-->
-    <section id="container" class="container">
-        <article class="navigation">
-            <ul>
-                <li>
-                    <a href="#">
-                        <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
-                        <span class="title">
-                            <h3>BAN-K</h3>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-                        <span class="title">Mi cuenta</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#movimientos">
-                        <span class="icon"><ion-icon name="swap-vertical-outline"></ion-icon></span>
-                        <span class="title">Mis movimientos</span>
-                    </a>
-                </li>
-                <li>
-                    <a id="logout" href="#">
-                        <span class="icon"><ion-icon name="exit-outline"></ion-icon></span>
-                        <span class="title">Salir</span>
-                    </a>
-                </li>
-            </ul>
 
-    </section>
-    </article>
-    <section class="main">
-        <article class="topbar">
-            <article class="toggle">
-                <ion-icon name="caret-forward-outline"></ion-icon>
-            </article>
-            <article>
-                <h1>Bienvenido a tu ban-k</h1>
-            </article>
-            <article>
-                <button id="emailBoton"><ion-icon name="mail-unread-outline"></ion-icon></button>
-            </article>
-        </article>
-        <!--Vista de saldos-->
-        <section class="cardBox">
-            <article class="card">
-                <article id="balance-container">
-                    <h2>Mi saldo</h2>
-                    <p id="balance" class="numeros"></p>
-                </article>
-                <article class="icons">
-                    <ion-icon name="cash-outline"></ion-icon>
-                </article>
-            </article>
-        </section>
+        <section id="atm-container">
+            <!--Navegacion-->
+            <section id="container" class="container">
+                <article class="navigation">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
+                                <span class="title">
+                                    <h3>BAN-K</h3>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                                <span class="title">Mi cuenta</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#movimientos">
+                                <span class="icon"><ion-icon name="swap-vertical-outline"></ion-icon></span>
+                                <span class="title">Mis movimientos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="logout" href="#">
+                                <span class="icon"><ion-icon name="exit-outline"></ion-icon></span>
+                                <span class="title">Salir</span>
+                            </a>
+                        </li>
+                    </ul>
 
-        <!--Centro de trasacion-->
-        <section class="detalles">
-            <article class="detallesTrasacion">
-                <article class="cartaTrasacion">
-                    <h2>Centro de transacciones</h2>
+            </section>
+            </article>
+            <section class="main">
+                <article class="topbar">
+                    <article class="toggle">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                    </article>
+                    <article>
+                        <h1>Bienvenido a tu ban-k</h1>
+                    </article>
+                    <article>
+                        <button id="emailBoton"><ion-icon name="mail-unread-outline"></ion-icon></button>
+                    </article>
                 </article>
-                <section class="atm-container">
-                    <article id="actions-container">
-                        <form id="transaction-form">
-                            <input type="number" id="amount" placeholder="Valor" required>
-                            <!-- <input id="Transacion" type="text" placeholder="Numero de cuenta" required>-->
-                            <select id="transaction-type">
-                                <option value="Consignacion">Consignar saldo</option>
-                                <option value="Retiro">Retirar saldo</option>
-                                <option value="Transferencia">Transferir a cuenta</option>
-                            </select>
-                            <button type="submit"><ion-icon name="navigate-outline"></ion-icon></button>
-                        </form>
+                <!--Vista de saldos-->
+                <section class="cardBox">
+                    <article class="card">
+                        <article id="balance-container">
+                            <h2>Mi saldo</h2>
+                            <p id="balance" class="numeros"></p>
+                        </article>
+                        <article class="icons">
+                            <ion-icon name="cash-outline"></ion-icon>
+                        </article>
                     </article>
                 </section>
-            </article>
-        </section>
-        <section id="movimientos">
-            <section class="detallesMovimientos">
-                <article class="detallesTrasacion">
-                    <article id="transactions-container">
-                        <h2>Movimientos</h2>
-                        <ul id="transaction-list"></ul>
-                    </article>
-                </article>
-            </section>
-        </section>
-    </section>
 
-</section>
-</main>
+                <!--Centro de trasacion-->
+                <section class="detalles">
+                    <article class="detallesTrasacion">
+                        <article class="cartaTrasacion">
+                            <h2>Centro de transacciones</h2>
+                        </article>
+                        <section class="atm-container">
+                            <article id="actions-container">
+                                <form id="transaction-form">
+                                    <input type="number" id="amount" placeholder="Valor" required>
+                                    <!-- <input id="Transacion" type="text" placeholder="Numero de cuenta" required>-->
+                                    <select id="transaction-type">
+                                        <option value="Consignacion">Consignar saldo</option>
+                                        <option value="Retiro">Retirar saldo</option>
+                                        <option value="Transferencia">Transferir a cuenta</option>
+                                    </select>
+                                    <button type="submit"><ion-icon name="navigate-outline"></ion-icon></button>
+                                </form>
+                            </article>
+                        </section>
+                    </article>
+                </section>
+                <section id="movimientos">
+                    <section class="detallesMovimientos">
+                        <article class="detallesTrasacion">
+                            <article id="transactions-container">
+                                <h2>Movimientos</h2>
+                                <ul id="transaction-list"></ul>
+                            </article>
+                        </article>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+    </main>
     <script src="/assets/js/main.js"></script>
     <!--Iconos-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

@@ -267,14 +267,16 @@ body {
     display: grid;
     margin-top: 50px;
     text-align: center;
-    
+
 }
+
 .detallesMovimientos li {
     list-style: none;
     padding: 2px;
     text-align: start;
     border-bottom: 2px solid var(--white);
 }
+
 .detallesMovimientos .detallesTrasacion {
     position: relative;
     display: grid;
@@ -290,6 +292,7 @@ body {
     font-weight: 600;
     color: var(--white);
 }
+
 #login-container {
     position: relative;
     text-align: center;
@@ -305,6 +308,7 @@ body {
     color: aliceblue;
     box-shadow: 1px 5px 15px rgb(59, 2, 2);
 }
+
 #login-form input {
     display: grid;
     margin-left: 21%;
@@ -382,26 +386,30 @@ body {
 #transaction-type option {
     border-radius: 10px;
 }
+
 /*------------------Responsive----------------------*/
-@media (max-width: 991px){
-    .navigation{
+@media (max-width: 991px) {
+    .navigation {
         left: -300px;
     }
-    .navigation.active{
+
+    .navigation.active {
         width: 300px;
         left: 0;
     }
-    .main{
+
+    .main {
         width: 100%;
         left: 0;
     }
-    .main.active{
+
+    .main.active {
         left: 300px;
     }
-    .cardBox{
+
+    .cardBox {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 768px){
 
-}
+@media (max-width: 768px) {}

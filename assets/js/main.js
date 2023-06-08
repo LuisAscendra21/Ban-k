@@ -8,7 +8,7 @@ function activeLink() {
     this.classList.add("hovered");
 }
 
-list.forEach((item) => item.addEventListener("mouseover",activeLink));
+list.forEach((item) => item.addEventListener("mouseover", activeLink));
 
 //Menu toggle
 
@@ -55,7 +55,7 @@ function showLoginContainer() {
 function showATMContainer() {
     loginContainer.style.display = 'none';
     atmContainer.style.display = 'block';
-   
+
 }
 
 
@@ -85,7 +85,7 @@ function processTransaction(amount, type) {
             return;
         }
         currentUser.balance -= amount;
-    } else if(type === 'Transferencia'){
+    } else if (type === 'Transferencia') {
         if (amount > currentUser.balance) {
             alert('Saldo insuficiente');
             return;
